@@ -1,0 +1,62 @@
+/* Styling of the header image and title */
+.title {
+  display: block;
+  -webkit-border-radius: 10px;
+  -moz-border-radius: 10px; 
+  border-radius: 10px;
+
+  font-size: 140px;
+  font-family: cursive;
+  color: rgba(255, 255, 255, 0.6);
+
+  background: url(header.png) left repeat;
+  padding: 20px;
+}
+
+/* Styling of navigation bar */
+.navbar{
+  display: block;
+  -webkit-border-radius: 10px;
+  -moz-border-radius: 10px; 
+  border-radius: 10px;
+
+  background: url(nav_bg2.jpg) left repeat;
+}
+nav li {
+  list-style: none;
+  text-transform: uppercase;
+  font-size: 50px;
+  font-family: fantasy;
+
+  float: left;
+  padding-right: 65px;
+  padding-left: 65px;
+}
+
+/* Styling for each option in navigation bar*/
+.yoda {
+  width: 150px;
+  height: 25px;
+  padding: 10px 0 0 0;
+  text-align: center;
+  float: left;
+  background: #d0d0c6;
+  color: #787871;
+  font: 12px Tahoma, sans-serif;
+  text-decoration: none;
+
+  -webkit-box-shadow: 5px 5px 5px #000;
+  -moz-box-shadow:5px 5px 5px #000;
+  box-shadow:5px 5px 5px #000;
+}
+
+.yoda:hover {
+  font-weight: bold;
+
+  -webkit-transform: scale(1.2);
+  -moz-transform: scale(1.2);
+  transform: scale(1.2);
+  -webkit-box-shadow: 5px 5px 9px #ccc;
+  -moz-box-shadow: 5px 5px 9px #ccc;
+  box-shadow: 5px 5px 9px #ccc;
+}
